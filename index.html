@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/entypo/2.0.0/entypo.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <!-- MAIN CONTAINER -->
+    <div id="main_container">
+        <!-- HEADER -->
+        <div id="header">
+            <div class="header_logotype_container">
+                <h1 class="logotype_name">Ashu <span class="purple">Code</span></h1>
+                <h2 class="logotype_occupation">Frontend Web Developer</h2>
+            </div>
+            <div class="header_menu_container">
+                <ul class="download_print_buttons horizontal_list">
+                    <li><a href="#" onclick="window.print()"><span class="icon entypo-print"></span>Print CV</a></li>
+                    <li><a href="resume.pdf" download><span class="icon fontawesome-download"></span>Download CV</a></li>
+                </ul>
+
+                <!-- HAMBURGER MENU -->
+                <div id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+                <div class="clear"></div>
+                <ul class="header_menu horizontal_list" id="menu">
+                    <li><a class="no_border purple" href="#">Profile</a></li>
+                    <li><a href="#education">Education</a></li>
+                  
+<li><a href="#skills_section" id="toggle_skills_button">Show Skills</a></li>
+                    <li><a href="#work_experience">Work Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- LEFT COL -->
+        <div id="left_col">
+            <div class="profile_frame">
+                <div class="profile_picture"></div>
+            </div>
+            <div class="hello_content">
+                <h2>Hello!</h2>
+                <p>I am passionate about technology and human behavior. I am a hard worker and a fast learner with a strong inclination towards searching for and discovering new things.</p>
+            </div>
+            <div class="contact_details_content" id="contact">
+                <h2>Contact details</h2>
+                <p class="purple">Phone:</p>
+                <p>+3141246646</p>
+                <p class="purple">Email:</p>
+                <p><a href="mailto:codewithashu94@gmail.com">codewithashu94@gmail.com</a></p>
+                <p class="purple">GitHub:</p>
+                <p><a href="https://github.com/ashuu03449" target="_blank">https://github.com/ashuu03449</a></p>
+                <p class="purple">Facebook:</p>
+                <p><a href="https://www.facebook.com/profile.php?id=61554724457744&mibextid=ZbWKwL" target="_blank">facebook.com/Ayesha</a></p>
+            </div>
+            <a href="mailto:codewithashu94@gmail.com" class="send_message_button">
+                <span class="cut1"></span>
+                <span class="cut2"></span>
+                <span class="content">Send me a message <span class="fontawesome-double-angle-right"></span></span>
+            </a>
+        </div>
+        
+        <!-- PROFILE CONTENT -->
+        <div id="content_container">
+            <div class="block">
+                <h1>Profile</h1>
+                <blockquote class="profile_quote">
+                    <p>"There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning."</p>
+                    <span class="entypo-quote"></span>
+                </blockquote>
+            </div>
+            <div class="block">
+                <h2>A few words about me</h2>
+                <p>I am on a journey to becoming a professional developer, having already mastered HTML, CSS, JavaScript (JS), and TypeScript (TS). Currently, I am deeply immersed in advancing my skills with Next.js and Python. I consider myself a tolerant and respectful individual with an open mind and a strong sense of honesty. I have a genuine passion for listening to people's stories and learning about their diverse experiences from around the world.</p>                
+            </div>
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="left_circle"></div>
+                <div class="central_circle"></div>
+                <div class="right_circle"></div>
+                <div class="line_right"></div>
+            </div>
+            
+            <!-- NEW SECTIONS -->
+            <div class="block" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>Intermediate (Commerce) - Bufferzone Government Girls College, Karachi, Pakistan (Graduated: [2024])</li>
+                    <li>Matriculation - New Generation School (NGS), Karachi, Pakistan (Graduated: 2021)</li>
+                </ul>
+            </div>
+            
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="left_circle"></div>
+                <div class="central_circle"></div>
+                <div class="right_circle"></div>
+                <div class="line_right"></div>
+            </div>
+            <div class="block" id="work_experience">
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Frontend Web Developer</strong>
+                        <ul>
+                            <li>Developed and maintained user-friendly web interfaces using HTML, CSS, and JavaScript.</li>
+                            <li>Worked on responsive design to ensure optimal performance across various devices.</li>
+                            <li>Implemented best practices for web accessibility and performance optimization.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="horizontal_line">
+                <div class="line_left"></div>
+                <div class="left_circle"></div>
+                <div class="central_circle"></div>
+                <div class="right_circle"></div>
+                <div class="line_right"></div>
+            </div>
+            <div class="block" id="skills_section" >
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="clear"></div>
+        <!-- FOOTER -->
+        <div id="footer">
+            <p class="footer_name">Ayesha Shakoor Resume 2024</p>
+        </div>
+    </div>
+
+    <!-- JS for Hamburger Menu -->
+    <script src="app.js">
+        
+    </script>
+</body>
+</html>
